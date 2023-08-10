@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dbt_mallin
+    database: dbt-jaffle-shop-project-395413  
+    schema: dbt_mallin  
+    tables:
+      - name: orders
+      - name: customers
+      - name: payments
