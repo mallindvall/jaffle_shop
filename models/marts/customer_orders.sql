@@ -24,7 +24,7 @@ compleeted_payments as (
         max(payment_created_date) as payment_finalized_date, 
         sum(payment_amount) as total_amount_paid
     from payments
-    where payment_status <> 'fail'
+    where payment_status <> 'fail.'
     group by 1 
 
 ),

@@ -1,4 +1,5 @@
 with
+--comment
 
 source_customers as (
     select 
